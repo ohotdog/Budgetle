@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="16" fill="#90caf9"/>
+  
+  <!-- Film reel holes -->
+  <circle cx="16" cy="6" r="2" fill="#121212"/>
+  <circle cx="16" cy="26" r="2" fill="#121212"/>
+  <circle cx="6" cy="16" r="2" fill="#121212"/>
+  <circle cx="26" cy="16" r="2" fill="#121212"/>
+  
+  <!-- Dollar sign -->
+  <path d="M18 10H15V8H13V10H12C11.4477 10 11 10.4477 11 11V12C11 12.5523 11.4477 13 12 13H16V19H12V17H10V19H9C8.44772 19 8 19.4477 8 20V21C8 21.5523 8.44772 22 9 22H12V24H14V22H17V20H14V16H18C18.5523 16 19 15.5523 19 15V11C19 10.4477 18.5523 10 18 10Z" fill="#121212"/>
+</svg> 

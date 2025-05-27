@@ -1,7 +1,8 @@
 import React from 'react';
-import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
+import { ThemeProvider, createTheme, CssBaseline, Box } from '@mui/material';
 import Game from './components/Game';
 import DebugBanner from './components/DebugBanner';
+import Footer from './components/Footer';
 
 const theme = createTheme({
   palette: {
@@ -21,7 +22,10 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <DebugBanner />
-      <Game />
+      <Box sx={{ pb: 7 }}>
+        <Game />
+      </Box>
+      <Footer />
     </ThemeProvider>
   );
 }

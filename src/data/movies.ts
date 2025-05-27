@@ -3,73 +3,38 @@ import { Movie } from '../types/game';
 export const movies: Movie[] = [
   {
     id: '1',
-    title: 'Inception',
-    budget: 160000000,
-    youtubeClipId: 'YoHD9XEInc0',
-    releaseYear: 2010
+    title: 'Raising the Bar',
+    budget: 300000,
+    youtubeClipId: '7eUFkeKHRwk',
+    releaseYear: 2016
   },
   {
     id: '2',
-    title: 'The Blair Witch Project',
-    budget: 60000,
-    youtubeClipId: 'MwZ12gJD1-Q',
-    releaseYear: 1999
+    title: 'The ABCs of Death',
+    budget: 5000,
+    youtubeClipId: 'sOjnX-Mbzqg',
+    releaseYear: 2012
   },
   {
     id: '3',
-    title: 'Avatar',
-    budget: 237000000,
-    youtubeClipId: '5PSNL1qE6VY',
-    releaseYear: 2009
+    title: 'Money Train',
+    budget: 68000000,
+    youtubeClipId: 'tr86n2JRUyRc',
+    releaseYear: 1995
   },
   {
     id: '4',
-    title: 'Paranormal Activity',
-    budget: 15000,
-    youtubeClipId: 'F_UxLEqd074',
-    releaseYear: 2007
+    title: 'Battleship',
+    budget: 215000000,
+    youtubeClipId: 'c52XFAsnJpU',
+    releaseYear: 2012
   },
   {
     id: '5',
-    title: 'Pirates of the Caribbean: At World\'s End',
-    budget: 300000000,
-    youtubeClipId: 'HKSZtp_OGHY',
-    releaseYear: 2007
-  },
-  {
-    id: '6',
-    title: 'The Breakfast Club',
-    budget: 1000000,
-    youtubeClipId: '3jNj19V3mO4',
-    releaseYear: 1985
-  },
-  {
-    id: '7',
-    title: 'Titanic',
-    budget: 200000000,
-    youtubeClipId: 'zCy5WH7QukM',
-    releaseYear: 1997
-  },
-  {
-    id: '8',
-    title: 'Mad Max: Fury Road',
-    budget: 150000000,
-    youtubeClipId: 'hEJnMQG9ev8',
-    releaseYear: 2015
-  },
-  {
-    id: '9',
-    title: 'El Mariachi',
-    budget: 7000,
-    youtubeClipId: 'jF2zDtj6GEY',
-    releaseYear: 1992
-  },
-  {
-    id: '10',
-    title: 'The Avengers',
-    budget: 220000000,
-    youtubeClipId: 'eOrNdBpGMv8',
-    releaseYear: 2012
+    title: 'Christine',
+    budget: 10000000,
+    youtubeClipId: '64mPmCQLOjc',
+    releaseYear: 1983
   }
 ];
 
