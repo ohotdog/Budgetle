@@ -30,6 +30,7 @@ const ResultsModal: React.FC<ResultsModalProps> = ({
       open={open}
       onClose={onClose}
       aria-labelledby="game-results-modal"
+      disableScrollLock={false}
     >
       <Box sx={{
         position: 'absolute',
@@ -42,13 +43,17 @@ const ResultsModal: React.FC<ResultsModalProps> = ({
         borderRadius: 2,
         boxShadow: 24,
         display: 'flex',
-        flexDirection: 'column'
+        flexDirection: 'column',
+        overflow: 'hidden'
       }}>
-        {/* Header */}
+        {/* Header - Fixed */}
         <Box sx={{ 
           p: { xs: 1.5, sm: 2 },
           pr: { xs: 3.5, sm: 4 },
-          position: 'relative'
+          position: 'relative',
+          bgcolor: 'background.paper',
+          borderBottom: 1,
+          borderColor: 'divider'
         }}>
           <IconButton
             aria-label="close"
@@ -79,15 +84,14 @@ const ResultsModal: React.FC<ResultsModalProps> = ({
           </Typography>
         </Box>
 
-        <Divider />
-
-        {/* Content */}
+        {/* Content - Scrollable */}
         <Box sx={{ 
           p: { xs: 1.5, sm: 2 },
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
           gap: { xs: 1.5, sm: 2 },
+          overflowY: 'auto',
           '& > *': { transform: 'scale(0.95)' }
         }}>
           <ShareButton 
