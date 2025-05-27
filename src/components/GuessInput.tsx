@@ -91,7 +91,6 @@ const GuessInput: React.FC<GuessInputProps> = ({ onGuess, disabled, remainingGue
           variant="outlined"
           inputProps={{
             inputMode: 'numeric',
-            pattern: '[0-9]*',
             'aria-label': 'Enter movie budget in dollars',
             style: { fontSize: '1.1rem' }
           }}

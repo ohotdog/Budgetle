@@ -15,9 +15,9 @@ const GuessList: React.FC<GuessListProps> = ({ guesses }) => {
       case 'correct':
         return 'success.main';
       case 'way-too-high':
-      case 'too-high':
-        return 'error.main';
       case 'way-too-low':
+        return 'error.main';
+      case 'too-high':
       case 'too-low':
         return 'warning.main';
       default:
@@ -37,12 +37,12 @@ const GuessList: React.FC<GuessListProps> = ({ guesses }) => {
           </Stack>
         );
       case 'too-high':
-        return <ArrowDownwardIcon color="error" />;
+        return <ArrowDownwardIcon color="warning" />;
       case 'way-too-low':
         return (
           <Stack direction="row">
-            <ArrowUpwardIcon color="warning" />
-            <ArrowUpwardIcon color="warning" />
+            <ArrowUpwardIcon color="error" />
+            <ArrowUpwardIcon color="error" />
           </Stack>
         );
       case 'too-low':
